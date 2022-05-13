@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | QR code component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Radio+Canada:wght@400;500;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,400;1,700;1,900&display=swap');
+    *{
+      margin: 0px;
+      padding: 0px;
+      box-sizing: border-box;
+    }
+    body{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      width: 100%;
+      min-height: 100vh;
+      font-family: 'Radio Canada', sans-serif;
+      font-family: 'Roboto', sans-serif;
+      background-color: #D5E1EF;
+    }
+
+    #Ui-Card{
+      width: 300px;
+      overflow: hidden;
+      display: block;
+      min-height: 400px;
+      position: relative;
+      padding: 10px;
+    }
+
+    .Box-Wrapper{
+      border-radius: 20px;
+      height: 100%;
+      width: 100%;
+      padding: 12px;
+      text-align: center;
+      background-color: #fff;
+    }
+
+    .Head_line{
+      font-size: 1em;
+      color: black;
+      font-weight: 600;
+      line-height: 25px;
+      width: 80%;
+      margin: 20px auto 15px auto;
+    }
+
+
+    .Discription_line{
+      font-size: 12px;
+      color: rgb(112, 112, 112);
+      width: 80%;
+      margin: 0px auto 30px auto;
+    }
+
+
+    .Main__image img{
+      width: 100%;
+      border-radius: 20px;
+    }
+    .attribution { font-size: 11px; text-align: center;  width: 100%;}
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <div id="Ui-Card">
+      <div class="Box-Wrapper">
+          <div class="Main__image"><img src="./images/image-qr-code.png" alt=""></div>
+          <p class="Head_line">Improve your front-end skills by building projects</p>
+          <p class="Discription_line">  Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+      </div>
+  </div>
+
+
+
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://www.easysoft.pk">Easy Soft</a>.
+  </div>
+</body>
+</html>
